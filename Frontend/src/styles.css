@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply px-3 py-1 font-bold uppercase text-sm text-white rounded-full
+}
+
+.active{
+    @apply bg-yellow-400 text-black
+}

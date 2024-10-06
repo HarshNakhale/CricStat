@@ -1,0 +1,21 @@
+<div class="card border p-4 my-3 bg-white shadow-lg rounded-xl border-b-8 border-b-yellow-400 cursor-pointer h-full hover:bg-blue-200 hover:border-b-blue-950">
+    <div class="header border-b-2 border-b-gray-700 py-3 lg:h-24">
+        <p>{{liveMatch.teamHeading}}</p>
+        <p>{{liveMatch.matchNumberVenue}}</p>
+    </div>
+    <div class="body py-2 h-24">
+
+        <div class="flex justify-between">
+            <p class="font-bold">{{liveMatch.battingTeam}}</p>
+            <p class="font-bold">{{liveMatch.battingTeamScore}}</p>
+        </div>
+        <div class="flex justify-between">
+            <p class="font-bold">{{liveMatch.bowlTeam}}</p>
+            <p class="font-bold">{{liveMatch.bowlTeamScore}}</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="text-orange-500">{{liveMatch.setLiveText}}</p>
+        <p class="text-green-600">{{liveMatch.textComplete}}</p>
+    </div>
+</div>

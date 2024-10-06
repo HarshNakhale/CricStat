@@ -1,0 +1,35 @@
+<div id="backgroundImg">
+
+</div>
+<div class="container px-20 py-6" style="margin: auto;">
+    <p class="text-4xl text-gray-800 font-extrabold uppercase text-center">CWC-23 Points Table</p>
+    <div class="flex justify-around">
+
+        <div>
+            <p class="text-2xl uppercase text-center font-bold">Winner</p>
+            <p class="text-2xl uppercase text-center font-bold">Australia</p>
+        </div>
+        <div>
+            <p class="text-2xl uppercase text-center font-bold">Runners Up</p>
+            <p class="text-2xl uppercase text-center font-bold">India</p>
+        </div>
+
+    </div>
+    <div class="container my-4">
+        <table class="table-auto min-w-full bg-slate-100 border-collapse border border-black shadow-lg border-spacing-1">
+            <thead>
+                <tr>
+                    <th *ngFor="let heading of tableHeading" class="py-2 px-4 font-bold uppercase text-lg border border-gray-500">{{heading}}</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr *ngFor="let pt of pointsTable;index as i" [ngClass]="{'bg-red-200':i>=4,'bg-green-200':i<4}">
+                    <td *ngFor="let teamData of pt" class="py-2 px-4 text-center border border-gray-500 hover:bg-slate-20">{{teamData}}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+</div>

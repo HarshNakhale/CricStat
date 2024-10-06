@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\Harsh Work\JAVA - Project\CricStat\.metadata\.plugins\org.eclipse.jdt.core
+1067094681.index
+2688609518.index
+1865797976.index
