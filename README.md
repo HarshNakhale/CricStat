@@ -1,5 +1,6 @@
 # Project Demo
-![Cric-Stat Demo](https://github.com/user-attachments/assets/e06f9f11-11d6-426b-9247-5209d522fad4)
+[![Cric-Stat Demo](https://github.com/user-attachments/assets/e06f9f11-11d6-426b-9247-5209d522fad4)](https://github.com/user-attachments/assets/d09c5116-9069-4e6f-833a-b620f6b8cef8
+)
 
 # Live Matches Section
 * Match Information:
